@@ -1,0 +1,15 @@
+# Assets
+data/
+BGM/
+
+# Visual Code
+.vscode/
+
+# Rust
+/target
+
+# Environment
+.env
+
+# Others
+C#/

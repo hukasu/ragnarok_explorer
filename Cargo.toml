@@ -1,0 +1,21 @@
+[package]
+name = "ragnarok_explorer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.lints.clippy]
+todo = "warn"
+unimplemented = "warn"
+dbg_macro = "warn"
+unwrap_used = "warn"
+expect_used = "warn"
+
+[dependencies]
+bevy = { version = "0.14.2" }
+bevy_egui = { version = "0.29" }
+
+ab_glyph = "0.2.28"
+
+ragnarok_rebuild_bevy = { git = "https://github.com/hukasu/bevy_ro_client", rev = "819bb10c56ba4f1f6ffd15f6f4d4576a2a92808b" }
